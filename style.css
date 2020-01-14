@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background: grey;
+    height: 75%;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.teclas {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+}
+
+button {
+    margin: 4px;
+    padding: 15px 20px;
+    font-size: 20px;
+    /* border-radius: 2rem; */
+}
+
+.numbers button:hover,
+.operations button:hover {
+    background: aqua;
+}
+
+.display {
+    padding: 18px 18px 0px 18px;
+}
+
+.numbers div {
+    text-align: center;
+}
+
+.numbers button {
+    box-shadow: 0px;
+    background-color: white;
+}
+
+.numbers {
+    padding: 18px 9px 18px 18px;
+}
+
+.operations {
+    padding: 18px 18px 18px 9px;
+}
+
+.operations button {
+    display: block;
+}
+
+#printNumber {
+    background: white;
+    height: 5%;
+    padding: 12px;
+    width: 90%;
+    justify-content: center;
+    color: black;
+}
+
+.showResult {
+    margin: 0;
+    padding: 0px 18px 18px 18px;
+}
+
+.showResult button {
+    width: 98%;
+    background-color: black;
+    color: white;
+    border: none;
+}
